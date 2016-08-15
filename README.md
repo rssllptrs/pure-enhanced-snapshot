@@ -1,5 +1,5 @@
 # Pure-Storage-Enhanced-Snapshot-Facility
-Enhances the Pure Storage Snapshot Capabilities<br>
+<b>Enhances the Pure Storage Snapshot Capabilities</b><br>
 
 <p>The Pure Storage Array Enhanced Snapshot Facility is a customized suite of three (3) basic custom Python based tools enhancing the Protection capability that ships with the Pure Storage array. The facility exploits the REST interface and utilizes the Python API provided by Pure Storage and is currently only tested to run on Unix/Linux platforms (but should work similarly on Windows). Therefore, Python, and the Pure Storage Python API is a prerequisite.
 
