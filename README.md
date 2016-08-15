@@ -1,5 +1,8 @@
 # Pure-Storage-Enhanced-Snapshot-Facility
 Enhances the Pure Storage Snapshot Capabilities<br>
+
+<p>The Pure Storage Array Enhanced Snapshot Facility is a customized suite of three (3) basic custom Python based tools enhancing the Protection capability that ships with the Pure Storage array. The facility exploits the REST interface and utilizes the Python API provided by Pure Storage and is currently only tested to run on Unix/Linux platforms (but should work similarly on Windows). Therefore, Python, and the Pure Storage Python API is a prerequisite.
+
 <pre>
 Prerequisite
 Requires Python and installation of the Pure Storage Python Automation toolkit:
@@ -27,7 +30,7 @@ which contains two files, __init__.py and purestorage.py) ...
 and the requests directory (under requests) to a subdirectory under the common installation directory for purerest.py
 ----------------------------------------------------------------
 Installation
-1) Copy snapsched.py, snapcopy.py, and snaplist.py purerest.py to any empty directory, e.g., /usr/local/purestorage
+1) Copy snapsched.py, snapcopy.py, and snaplist.py to any empty directory, e.g., /usr/local/purestorage
 2) Change directory to the destination, e.g., cd /usr/local/purestoage
 3) Run:
   ln -s snapshed.py snapsched
